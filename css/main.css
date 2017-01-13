@@ -16,12 +16,18 @@ body {
   flex-direction: column;
 }
 
+.about {
+  margin-bottom: 2em;
+  text-align: center;
+  color: gray;
+}
+
 #header-image {
   height: 10rem;
   width: 10rem;
   border-radius: 5rem;
   display: block;
-  margin: 5rem auto;
+  margin: 5rem auto 0;
 }
 
 #social {
