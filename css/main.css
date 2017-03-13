@@ -16,6 +16,15 @@ body {
   flex-direction: column;
 }
 
+section {
+  margin: 0 20%;
+  color: #676767;
+}
+
+footer p {
+  text-align: center;
+}
+
 .about {
   margin-bottom: 2em;
   text-align: center;
