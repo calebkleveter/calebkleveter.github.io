@@ -31,6 +31,52 @@ footer p {
   color: gray;
 }
 
+.projects {
+  margin: 0 auto;
+}
+
+.project {
+  border-width: 2px;
+  border-color: orange;
+  border-radius: 1em;
+  border-style: solid;
+  background-color: white;
+  margin: 2em 20% 0;
+  padding: 0 15%;
+}
+
+.project ul {
+  list-style: none;
+  padding: 0;
+}
+
+.project ul li {
+  display: inline-flex;
+  background-color: orange;
+  color: white;
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
+
+.project p.link {
+  float: left;
+  width: 12ch;
+}
+
+.project p.link a {
+  color: orange;
+  text-decoration: none;
+}
+
+.project p.date {
+  float: right;
+  width: 15ch;
+}
+
+.project hr {
+  width: 100%;
+}
+
 #header-image {
   height: 10rem;
   width: 10rem;
