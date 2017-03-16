@@ -48,26 +48,15 @@ footer p {
 }
 
 .project ul li {
-  display: inline-flex;
   background-color: orange;
   color: white;
   padding: 0.5em;
   border-radius: 0.5em;
 }
 
-.project p.link {
-  float: left;
-  width: 12ch;
-}
-
 .project p.link a {
   color: orange;
   text-decoration: none;
-}
-
-.project p.date {
-  float: right;
-  width: 15ch;
 }
 
 .project hr {
@@ -91,7 +80,6 @@ footer p {
 }
 
 #social li {
-  display: inline-flex;
   margin: .5rem;
 }
 
@@ -106,4 +94,34 @@ footer p {
 
 .content {
   flex: 1;
+}
+
+@media only screen and (min-width: 1395px) {
+  .project p.date {
+    float: right;
+    width: 15ch;
+  }
+
+  .project p.link {
+    float: left;
+    width: 12ch;
+  }
+}
+
+@media only screen and (min-width: 1130px) {
+  .project ul li {
+    display: inline-flex;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #social li {
+    display: inline-flex;
+  }
+}
+
+@media only screen and (max-width: 1129px) {
+  .project ul li {
+    margin-bottom: 0.5em;
+  }
 }
