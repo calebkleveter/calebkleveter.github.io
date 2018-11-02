@@ -18,10 +18,6 @@ section {
   color: #676767;
 }
 
-footer p {
-  text-align: center;
-}
-
 .about {
   margin-bottom: 2em;
   text-align: center;
@@ -96,6 +92,14 @@ footer p {
 
 .content {
   flex: 1;
+}
+
+footer {
+  margin-top: 2em;
+}
+
+footer p {
+  text-align: center;
 }
 
 @media only screen and (min-width: 1395px) {
